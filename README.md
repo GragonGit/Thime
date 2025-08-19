@@ -1,1 +1,1 @@
-# Thime
+# Welcome to Thime
