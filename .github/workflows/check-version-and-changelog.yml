@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Extract PR number
+      - name: Extract Repo number
         env:
             BRANCH: ${{ github.repository }}
         id: extract_repository_name
