@@ -1,0 +1,23 @@
+name: TODO
+description: Features or tasks that still need to be done
+title: "[TODO] "
+labels: ["Feature"]
+body:
+  - type: dropdown
+    attributes:
+      label: Importance
+      description: How important is this issue for the final release?
+      multiple: false
+      options:
+        - High
+        - Medium
+        - Low
+      default: 2
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: What is the issue about?
+    validations:
+      required: true
