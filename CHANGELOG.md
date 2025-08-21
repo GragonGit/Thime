@@ -9,6 +9,13 @@ Changes in the repository not influencing the actual application e.g. Issue Temp
 **Disclaimer**
 I try to make changes compatible with previous version but I do not test for this. Thus, every change in this project should be treated as a breaking change.
 
+## 0.2.0 - Added Thime Logic
+- Added Thime composable
+- Tested insertion of Thime into debug page
+- Updated dependencies
+
+Added the logic of the Thime clock to a composable and tested its general implementation process into a debug page. Seems to work without issues and usage feels good.
+
 ## 0.1.0 - Setup Thime
 - Initialised Thime
 - Added @nuxt/eslint – https://nuxt.com/modules/eslint
