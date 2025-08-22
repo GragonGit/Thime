@@ -1,9 +1,12 @@
 export function useTheme() {
-  const root = document.querySelector(':root')!
-  
-  let currentTheme = 'placeholderTheme'
+  const root = document?.documentElement ?? null;
 
-  function setTheme(name: string) {
+  let currentTheme = 'placeholderTheme';
+
+  function setTheme(name: string = '') {
+    if (!root) return;
+    if (name === '') name = useRoute().path.slice(1) + 'Theme';
+
     root.classList.remove(currentTheme);
     root.classList.add(name);
     currentTheme = name;

@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 
   routeRules: {
     "/": {
-      redirect: "/debugThime",
+      redirect: "/debug",
     },
   },
 

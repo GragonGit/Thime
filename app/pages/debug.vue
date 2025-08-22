@@ -7,7 +7,7 @@ defineProps<{
   thime: ReturnType<typeof useThime>,
   theme: ReturnType<typeof useTheme>
 }>();
-useTheme().setTheme('debugTheme')
+useTheme().setTheme()
 </script>
 
 <style lang="sass" scoped>
