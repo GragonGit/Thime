@@ -1,5 +1,3 @@
-import { ref, computed, onMounted, onUnmounted } from 'vue';
-
 export function useThime(initDate = new Date()) {
   const baseTime = initDate.getTime();
   const basePerf = performance.now();
