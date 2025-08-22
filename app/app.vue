@@ -22,8 +22,8 @@
 </template>
 
 <script setup lang="ts">
-const thime = useThime();
-const theme = useTheme();
+const thime = useThime()
+const theme = useTheme()
 
 
 function onPausePlayButtonClick() {
@@ -56,13 +56,13 @@ function onPausePlayButtonClick() {
     background-color: var(--control-bg)
 
     &>#control-grip>.iconify
-      color: var(--control-grip-hover)
+      color: var(--control-text)
 
     &>.control-button
       transform: translateY(0)
 
 .iconify
-  color: var(--control-button)
+  color: var(--control-text)
   font-size: 1.5rem
 
 .control-button
@@ -72,7 +72,7 @@ function onPausePlayButtonClick() {
   transform: translateY(1rem)
 
   background: transparent
-  border: var(--control-button) 0.25rem solid
+  border: var(--control-text) 0.25rem solid
   border-radius: 100vw
 
   transition: scale 200ms linear(0 0%, 0 1.8%, 0.01 3.6%, 0.03 6.35%, 0.07 9.1%, 0.13 11.4%, 0.19 13.4%, 0.27 15%, 0.34 16.1%, 0.54 18.35%, 0.66 20.6%, 0.72 22.4%, 0.77 24.6%, 0.81 27.3%, 0.85 30.4%, 0.88 35.1%, 0.92 40.6%, 0.94 47.2%, 0.96 55%, 0.98 64%, 0.99 74.4%, 1 86.4%, 1 100%)
@@ -92,6 +92,6 @@ function onPausePlayButtonClick() {
   grid-column: grid
 
   &>.iconify
-    color: var(--control-grip)
+    color: var(--control-bg)
     font-size: 0.5rem
 </style>
