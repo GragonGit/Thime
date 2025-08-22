@@ -9,6 +9,13 @@ Changes in the repository not influencing the actual application e.g. Issue Temp
 **Disclaimer**
 I try to make changes compatible with previous version but I do not test for this. Thus, every change in this project should be treated as a breaking change.
 
+## 0.3.0 - Created Thime Control Panel
+- Created Thime control panel
+- Added Material-Symbols icon pack
+- Added theme functionality
+
+Created a simple control panel for speeding up or slowing down the clock. More buttons will be coming soon. Added the Material-Symbols icon pack because I can't be bothered to do the icons myself. Lastly, added theme functionality or rather switched out the colors to use variables to allow themes in the future. It will be needed in the future and better do it now than changing everything later.
+
 ## 0.2.0 - Added Thime Logic
 - Added Thime composable
 - Tested insertion of Thime into debug page

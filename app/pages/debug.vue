@@ -3,7 +3,11 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{ thime: ReturnType<typeof useThime> }>();
+defineProps<{
+  thime: ReturnType<typeof useThime>,
+  theme: ReturnType<typeof useTheme>
+}>();
+useTheme().setTheme()
 </script>
 
 <style lang="sass" scoped>
